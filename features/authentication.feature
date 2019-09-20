@@ -13,7 +13,7 @@ Feature: Login in newtours
 
  Background: Go to Newtours page
     Given I am in Newtours page
-         
+  @Example       
   Scenario Outline: Login in Newtours 
       I fill login form with Email Address "<User>" and Password "<password>"
       And I click the "Sing-In" button
